@@ -1,0 +1,17 @@
+[
+{
+  "modid": "CommandAPI",
+  "name": "CommandAPI",
+  "description": "An API for adding commands to the game",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["thislooksfun"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
