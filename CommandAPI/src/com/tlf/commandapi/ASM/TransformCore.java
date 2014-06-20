@@ -5,7 +5,7 @@ import java.util.Map;
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin.MCVersion;
 
-@MCVersion(value = "1.6.4")
+@MCVersion(value = "1.7.2")
 public class TransformCore implements IFMLLoadingPlugin
 {
 	@Override

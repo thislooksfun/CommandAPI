@@ -16,15 +16,16 @@ import org.objectweb.asm.tree.LdcInsnNode;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 
-public class Transformer implements IClassTransformer {
-
+public class Transformer implements IClassTransformer
+{
 	@Override
 	public byte[] transform(String arg0, String arg1, byte[] arg2)
 	{
-		
+		System.out.println("Checking...");
 		if (arg0.equals("jv" /*null*/)) {
 			return patchClassASM(arg0, arg2, true);
 		} else if (arg0.equals("net.minecraft.entity.player.EntityPlayerMP" /*null*/)) {
+			System.out.println("Patching!");
 			return patchClassASM(arg0, arg2, false);
 		}
 
